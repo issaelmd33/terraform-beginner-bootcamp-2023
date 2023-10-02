@@ -21,10 +21,17 @@ due to gpg keyring changes. So we needed refer to the latest install CLI instruc
 
 [terraform_cli](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
-Linux Permissions Considerations
+## Linux Permissions Considerations
 
 In order to make our bash scripts executable we need to change linux permission for the fix to be exetuable at the user mode.
 chmod u+x ./bin/install_terraform_cli
+
+## Working Env Vars
+
+env command
+We can list out all Enviroment Variables (Env Vars) using the env command
+
+We can filter specific env vars using grep eg. env | grep AWS_
 
 
 
